@@ -182,10 +182,6 @@ display: none;
  z-index: -20;
 }
 
-.section.w-\[100vw\].lg\:w-\[35vw\].bg-transparent.lg\:bg-white {
-    position: absolute !important;
-    top: 95% !important;
-  }
 
 .journeydate {
     border: #e30b125b 1px solid;
@@ -222,7 +218,11 @@ display: none;
         margin-top: 60%;
     }
 
-
+    .section.w-\[100vw\].lg\:w-\[35vw\].bg-transparent.lg\:bg-white {
+        position: absolute !important;
+        top: 95% !important;
+      }
+    
     .contact{
         display: grid;
         grid-template-columns: auto auto;

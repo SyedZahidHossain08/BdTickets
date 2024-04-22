@@ -37,7 +37,7 @@ const toOutto = document.querySelector(".toouto ");
 const dateOutto = document.querySelector(".dateouto");
 const costto = document.querySelector(".costo");
 const datebox = document.querySelector(".selectdate");
-// const buslist = document.querySelector(".buslist");
+const buslist = document.querySelector(".buslist");
 
 BusSearch.addEventListener("click", () => {
 
@@ -59,8 +59,8 @@ document.querySelector(".to_searchbox").classList.add("showBox");
 setTimeout(() => {
   document.querySelector('.loader').classList.remove('load');
 
-  // buslist.classList.toggle("block");
-  // buslist.classList.remove("hidden");
+  buslist.classList.toggle("block");
+  buslist.classList.remove("hidden");
 
   if(fromBox.innerHTML!=toBox.innerHTML){
  fromOut.innerHTML = fromBox.innerText;
